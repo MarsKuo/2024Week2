@@ -1,0 +1,121 @@
+
+
+
+// =====
+.info {
+  padding-top: 72px;
+  padding-bottom: 32px;
+ 
+  p,h1{
+    color:#fff;
+    font-size: 64px;
+  }
+  h2{
+    font-size: 128px;
+    color:#00FFA3;
+    text-align: right;
+  }
+  .btn_info{
+    background-color: #fff;
+    padding:  12px 24px;
+    border-radius: 32px;
+    display: inline-flex;
+    color:#000;
+   
+    svg{
+      margin-left: 4px;
+    }
+    // dib
+  }
+}
+//===============
+.Introduction{
+  padding: 160px 0;
+  main{
+    margin-right: 24px;
+  }
+  h3{
+    font-size: 64px;
+    margin-bottom: 36px;
+  }
+  p{
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  
+}
+
+.about{
+  padding: 160px 0;
+
+  .cardList{
+    flex-wrap: wrap;
+    width: 636px;
+  }
+
+  .card{
+    border: 1px solid #E3E3E3;
+    padding:16px; 
+    width: 46%;
+    margin-right: $gutter * 2;
+    margin-bottom: $gutter * 2;
+    p{
+      font-size: 20px;
+    }
+    .content{
+      font-size: 16px;
+    }
+  }
+  
+  .desc{
+    width: 526px;
+    h3{
+      font-size: 64px;
+      margin-bottom: 36px;
+    }
+    p{
+      font-size: 24px;
+    }
+  }
+  
+}
+
+.contactMe{
+  padding: 96px 0;
+
+  p{
+    font-size: 64px;
+    display: inline-block;
+  }
+
+  .img{
+    width: 79px;
+  }
+  li:nth-child(2){
+    margin: 0 20px;
+  }
+  a:hover{
+    border-radius: 40px;
+    box-shadow: 0 0 16px 3px rgba(#9094FF, 0.9);
+  }
+}
+
+.myProduct{
+  font-size: 64px;
+  padding: 160px 0;
+  .top p{
+    font-size: 16px;
+  }
+  .btn_info{
+    padding:  12px 24px;
+    border-radius: 32px;
+    display: inline-flex;
+    color:#fff;
+    background-color: #000;
+   font-size: 16px;
+    svg{
+      margin-left: 4px;
+    }
+    // dib
+  }
+}
